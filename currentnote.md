@@ -10,3 +10,13 @@ iex -S mix
 # this will run test() in module Test1
 > Test1.test()
 ```
+
+# Connect nodes
+
+```elixir
+# this will start an iex with a name
+iex --sname one
+
+# this will connect to another node
+Node.connect :'two@abc'
+```
